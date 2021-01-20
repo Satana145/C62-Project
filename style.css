@@ -1,0 +1,119 @@
+#body {
+    text-align: center;
+    margin: 0;
+    background-color: black;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+@media screen and (max-width: 600px) {
+
+    ul.topnav li.right,
+    ul.topnav li {
+        float: none;
+    }
+}
+
+#profile {
+    height: 450px;
+    width: 90%;
+}
+
+img {
+    height: 125px;
+    width: 125px;
+}
+
+.div {
+    margin: 20px;
+}
+
+.top {
+    margin: 5px;
+}
+
+.mid {
+    margin: 5px;
+}
+
+.bot {
+    margin: 5px;
+}
+
+#plain {
+    cursor: default;
+}
+
+#plain:hover {
+    background-color: #333;
+}
+
+#slide {
+    width: 500px;
+    height: 500px
+}
+
+button {
+    border-style: none;
+    height: 500px;
+    background-color: whitesmoke;
+}
+
+#left {
+    left: 0px;
+    position: absolute;
+    margin: 0px;
+}
+
+.container {
+    text-align: center;
+}
+
+#myCarousel {
+    background-color: black;
+}
+
+#myCarousel img {
+    height: 500px;
+    width: 500px;
+    margin-top: 35px;
+}
+
+.carousel-inner p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+section {
+    background-color: black;
+}
+.head{
+    color: lightblue;
+}
+div{
+    background-color: black;
+}
